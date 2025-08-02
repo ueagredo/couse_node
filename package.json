@@ -1,12 +1,18 @@
 {
-  "name": "platzidate",
+  "name": "express",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "description": "this is my backedn node road map",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["date", "timestamp", "longtime"],
-  "author": "uveimar agredo perez",
+  "author": "uveimar agredo uveimar.159@gmail.com",
   "license": "MIT",
-  "description": "its an utility to manage dates in timestamp and longtime format"
+  "keywords": [
+    "express"
+  ],
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {}
 }
