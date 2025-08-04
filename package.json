@@ -4,6 +4,8 @@
   "description": "this is my backedn node road map",
   "main": "index.js",
   "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "uveimar agredo uveimar.159@gmail.com",
@@ -12,7 +14,15 @@
     "express"
   ],
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^5.1.0"
   },
-  "devDependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ueagredo/couse_node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ueagredo/couse_node/issues"
+  },
+  "homepage": "https://github.com/ueagredo/couse_node#readme"
 }
