@@ -2,10 +2,10 @@
   "name": "express",
   "version": "1.0.0",
   "description": "this is my backedn node road map",
-  "main": "index.js",
+  "main": "/src/index.js",
   "scripts": {
-    "dev": "node --watch index.js",
-    "start": "node index.js",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "uveimar agredo uveimar.159@gmail.com",
@@ -14,8 +14,13 @@
     "express"
   ],
   "dependencies": {
+    "@prisma/client": "^6.13.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
     "dotenv": "^17.2.1",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3"
   },
   "repository": {
     "type": "git",
@@ -24,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/ueagredo/couse_node/issues"
   },
-  "homepage": "https://github.com/ueagredo/couse_node#readme"
+  "homepage": "https://github.com/ueagredo/couse_node#readme",
+  "devDependencies": {
+    "prisma": "^6.13.0"
+  }
 }
